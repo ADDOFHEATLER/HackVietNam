@@ -21,7 +21,7 @@ local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
 local Window = Library:CreateWindow({
-	Title = "Kintama Hack",
+	Title = "Phim Sech VN",
 	Center = false,
 	AutoShow = true,
 	TabPadding = 8,
@@ -2420,3 +2420,4 @@ for _, effect in lighting:GetChildren() do
 end
 
 ReplicatedStorage.RS.Remotes.Combat.StaminaCost:FireServer(-3400)
+
